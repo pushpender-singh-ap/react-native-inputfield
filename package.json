@@ -1,6 +1,6 @@
 {
   "name": "pushpender-singh-ap-test-package",
-  "version": "1.0.3",
+  "version": "0.0.1",
   "description": "Test package",
   "main": "index.js",
   "scripts": {
