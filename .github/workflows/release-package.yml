@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
-          scope: '@pageuppeopleorg'
+          scope: '@pushpender-singh-ap'
       - run: npm i
       - name: Bump version and push tag
         id: tag
