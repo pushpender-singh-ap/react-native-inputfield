@@ -39,7 +39,8 @@ jobs:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
         with:
-          registry-url: 'https://npm.pkg.github.com/@pushpender-singh-ap/'
+          registry-url: 'https://npm.pkg.github.com/'
+          scope: '@pushpender-singh-ap'
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GIT}}
