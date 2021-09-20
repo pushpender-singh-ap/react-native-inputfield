@@ -1,5 +1,5 @@
 {
-  "name": "pushpender-singh-ap-test-package",
+  "name": "@pushpender-singh-ap/test-package",
   "version": "0.0.1",
   "description": "Test package",
   "main": "index.js",
