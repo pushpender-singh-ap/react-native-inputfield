@@ -26,11 +26,11 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
+          scope: "@pushpender-singh-ap"
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM}}
 
-  # doesn't work: tries to publish on https://registry.npmjs.org
   publish-gpr:
     name: Publish GitHub Packages
     needs: test
@@ -40,7 +40,6 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           registry-url: 'https://npm.pkg.github.com/'
-          scope: "@OWNER"
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GIT}}
