@@ -16,22 +16,12 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-          registry-url: https://npm.pkg.github.com/
+          registry-url: https://npm.pkg.github.com/@pushpender-singh-ap
           scope: '@pushpender-singh-ap'
       - run: npm i
-      - name: Bump version and push tag
-        id: tag
-        uses: anothrNick/github-tag-action@1.17.2
-        env:
-          GITHUB_TOKEN: ${{ secrets.GIT }}
-          NPM_TOKEN: ${{ secrets.NPM }}
-          WITH_V: true
-          RELEASE_BRANCHES: master
-          DEFAULT_BUMP: patch
       - name: version
         run: npm --no-git-tag-version --allow-same-version version ${{ steps.tag.outputs.tag }}
       - name: publish
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GIT }}
-          NPM_TOKEN: ${{ secrets.NPM }}
