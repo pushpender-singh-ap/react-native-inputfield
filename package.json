@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pushpender-singh-ap/react-native-inputfields.git"
+    "url": "git+https://github.com/pushpender-singh-ap/react-native-inputfield.git"
   },
   "keywords": [
     "inputfields",
@@ -24,7 +24,7 @@
   "author": "Pushpender Singh <pushpendersingh@p2devs.com> (https://github.com/pushpender-singh-ap)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pushpender-singh-ap/react-native-inputfields/issues"
+    "url": "https://github.com/pushpender-singh-ap/react-native-inputfield/issues"
   },
-  "homepage": "https://github.com/pushpender-singh-ap/react-native-inputfields#readme"
+  "homepage": "https://github.com/pushpender-singh-ap/react-native-inputfield#readme"
 }
