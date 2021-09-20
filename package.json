@@ -1,5 +1,5 @@
 {
-  "name": "react-native-inputfield",
+  "name": "@pushpender-singh-ap/react-native-inputfield",
   "version": "1.0.0",
   "description": "React Native Input Fields Component",
   "main": "index.js",
