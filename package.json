@@ -1,0 +1,27 @@
+{
+  "name": "react-native-inputfields",
+  "version": "1.0.0",
+  "description": "React Native Input Fields Component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pushpender-singh-ap/react-native-inputfields.git"
+  },
+  "keywords": [
+    "inputfields",
+    "inputbox",
+    "react-native",
+    "react",
+    "textinput",
+    "custom-inputfields"
+  ],
+  "author": "Pushpender Singh <pushpendersingh@p2devs.com> (https://github.com/pushpender-singh-ap)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pushpender-singh-ap/react-native-inputfields/issues"
+  },
+  "homepage": "https://github.com/pushpender-singh-ap/react-native-inputfields#readme"
+}
