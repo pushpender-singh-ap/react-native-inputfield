@@ -1,14 +1,14 @@
 {
-  "name": "react-native-inputfield",
+  "name": "pushpender-singh-ap-test-package",
   "version": "1.0.3",
-  "description": "React Native Input Fields Component",
+  "description": "Test package",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pushpender-singh-ap/react-native-inputfield.git"
+    "url": "git+https://github.com/pushpender-singh-ap/test-package.git"
   },
   "keywords": [
     "inputfields",
@@ -21,7 +21,7 @@
   "author": "Pushpender Singh <pushpendersingh@p2devs.com> (https://github.com/pushpender-singh-ap)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pushpender-singh-ap/react-native-inputfield/issues"
+    "url": "https://github.com/pushpender-singh-ap/test-package/issues"
   },
-  "homepage": "https://github.com/pushpender-singh-ap/react-native-inputfield#readme"
+  "homepage": "https://github.com/pushpender-singh-ap/test-package#readme"
 }
