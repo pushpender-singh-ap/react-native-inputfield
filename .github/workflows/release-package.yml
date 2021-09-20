@@ -19,7 +19,6 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@pageuppeopleorg'
       - run: npm i
-      - run: npm run create
       - name: Bump version and push tag
         id: tag
         uses: anothrNick/github-tag-action@1.17.2
