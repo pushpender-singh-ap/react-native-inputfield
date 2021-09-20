@@ -26,7 +26,6 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-          scope: "@pushpender-singh-ap"
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM}}
